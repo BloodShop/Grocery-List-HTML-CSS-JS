@@ -1,37 +1,3 @@
-// class GroceryList {
-//   constructor() {
-//     this.groceryList = [];
-//     this.index = 0;
-//   }
-
-//   isEmpty() {
-//     return this.groceryList.length == 0;
-//   }
-
-//   addItem(item) {
-//     // this.groceryList.push({
-//     //   key: this.index,
-//     //   value: item
-//     // });
-//     // index++;
-//     this.groceryList.push(item);
-//   }
-
-//   removeItem(item) {
-//     const ind = this.groceryList.indexOf(item)
-//     if(ind > -1) {
-//       this.groceryList.splice(ind, 1)
-//     }
-//   }
-// }
-
-// class Item {
-//   constructor(Name, Price) {
-//     this.name = Name;
-//     this.price = Price;
-//   }
-// }
-
 function deleteObj(row) {
   $("#myTable").deleteRow(row);
 }
@@ -106,8 +72,6 @@ function CheckInput(val1, val2) {
   }
 }
 
-// const checkboxs = [], 
-var rmvBtn = []
 function deleteSelected() {
   var rmvBtn = document.querySelectorAll(`[id^="chkBx"]`);
     for(var i = rmvBtn.length - 1; i >= 0; i--) {
@@ -117,7 +81,36 @@ function deleteSelected() {
     } 
 }
 
-// function deleteOperation() {
-//   $('#myTable').find('chkBx:input:(:checked)]').each(() =>
-//     $(this).remove())
+// class GroceryList {
+//   constructor() {
+//     this.groceryList = [];
+//     this.index = 0;
+//   }
+
+//   isEmpty() {
+//     return this.groceryList.length == 0;
+//   }
+
+//   addItem(item) {
+//     // this.groceryList.push({
+//     //   key: this.index,
+//     //   value: item
+//     // });
+//     // index++;
+//     this.groceryList.push(item);
+//   }
+
+//   removeItem(item) {
+//     const ind = this.groceryList.indexOf(item)
+//     if(ind > -1) {
+//       this.groceryList.splice(ind, 1)
+//     }
+//   }
+// }
+
+// class Item {
+//   constructor(Name, Price) {
+//     this.name = Name;
+//     this.price = Price;
+//   }
 // }
