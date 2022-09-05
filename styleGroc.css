@@ -1,0 +1,269 @@
+label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+div {
+  text-align: center;
+  padding: 6px 14px;
+}
+
+#amountItem, #priceItem, #nameItem {
+  margin: 0px 50px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border-color: #38517e;
+  
+}
+
+.button-10 {
+  flex-direction: column;
+  text-align: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+  background-origin: border-box;
+  box-shadow: 3px 3.5px 1.5px rgba(54, 122, 246, 0.25), inset 4px 2.8px 3px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-10:hover {
+  background: linear-gradient(180deg, #4779c3 0%, #38517e 100%);
+}
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+/* input[type="checkbox"]::before {
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+
+:root {
+  --body: #fafafa;
+  --text-default: #1d1d1f;
+  --text-secondary: #86868b;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --body: #fafafa;
+    --text-default: #1d1d1f;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body: #161616;
+    --text-default: #f5f5f7;
+  }
+}*/
+
+input[type="checkbox"] {
+  /* -webkit-appearance: none; */
+  outline: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  /* border: 1px solid var(--body); */
+  border-radius: 2.5rem;
+  cursor: pointer;
+  box-shadow: 9px 9px 16px rgba(189, 189, 189, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 10px 10px 15px -10px #c3c3c3, inset -10px -10px 15px -10px #fff;
+}
+/*@media (prefers-color-scheme: light) {
+  input[type="checkbox"] {
+    box-shadow: 9px 9px 16px rgba(189, 189, 189, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 10px 10px 15px -10px #c3c3c3, inset -10px -10px 15px -10px #fff;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  input[type="checkbox"] {
+    box-shadow: -8px -4px 8px 0px rgba(255, 255, 255, 0.05), 8px 4px 12px 0px rgba(0, 0, 0, 0.5), inset -4px -4px 4px 0px rgba(255, 255, 255, 0.05), inset 4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+input[type="checkbox"]::before {
+  height: 1.125rem;
+  width: 1.125rem;
+  background-color: var(--body);
+  margin: auto;
+  top: 0;
+  left: 0.333rem;
+  bottom: 0;
+  border-radius: 50%;
+  box-shadow: 1.5px 1.5px 3px #c3c3c3, 3px 3px 5px rgba(189, 189, 189, 0.6);
+  transition: 0.15s;
+}
+@media (prefers-color-scheme: light) {
+  input[type="checkbox"]::before {
+    box-shadow: 1.5px 1.5px 3px #c3c3c3, 3px 3px 5px rgba(189, 189, 189, 0.6);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  input[type="checkbox"]::before {
+    box-shadow: -3px -1px 3px 0px rgba(255, 255, 255, 0.05), 3px 1px 3.5px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+input[type="checkbox"]::after {
+  top: 1.25rem;
+  right: 1.5625rem;
+  font-family: "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.004em;
+}
+input[type="checkbox"]:checked {
+  background: #0071e3;
+}
+@media (prefers-color-scheme: light) {
+  input[type="checkbox"]:checked {
+    box-shadow: 3px 3px 5px rgba(189, 189, 189, 0.6), -3px -3px 5px rgba(255, 255, 255, 0.5), inset 10px 10px 15px -10px #0047b9, inset -10px -10px 15px -10px #0047b9;
+  }
+}
+input[type="checkbox"]:checked::before {
+  box-shadow: none;
+}
+input[type="checkbox"]:checked::after {
+  color: #f5f5f7;
+} */
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+@media screen and (max-width: 1920px){
+  #header-image4{height: 1000px}
+}
+@media screen and (max-width: 2560px){
+  #header-image4{height: 1500px}
+}
+
+body {
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+  position: fixed;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url("/cover.jpg");
+  background-size: 150%;
+}
+h2{
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  padding: 30px 0;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+  margin: 10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.fl-table td, .fl-table th {
+  text-align: center;
+  padding: 8px;
+}
+
+.fl-table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 12px;
+}
+
+.fl-table thead th {
+  color: #ffffff;
+  background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+  background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .fl-table {
+      display: block;
+      width: 100%;
+  }
+  .table-wrapper:before{
+      content: "Scroll horizontally >";
+      display: block;
+      text-align: right;
+      font-size: 11px;
+      color: white;
+      padding: 0 0 10px;
+  }
+  .fl-table thead, .fl-table tbody, .fl-table thead th {
+      display: block;
+  }
+  .fl-table thead th:last-child{
+      border-bottom: none;
+  }
+  .fl-table thead {
+      float: left;
+  }
+  .fl-table tbody {
+      width: auto;
+      position: relative;
+      overflow-x: auto;
+  }
+  .fl-table td, .fl-table th {
+      padding: 20px .625em .625em .625em;
+      height: 60px;
+      vertical-align: middle;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 120px;
+      font-size: 13px;
+      text-overflow: ellipsis;
+  }
+  .fl-table thead th {
+      text-align: left;
+      border-bottom: 1px solid #f7f7f9;
+  }
+  .fl-table tbody tr {
+      display: table-cell;
+  }
+  .fl-table tbody tr:nth-child(odd) {
+      background: none;
+  }
+  .fl-table tr:nth-child(even) {
+      background: transparent;
+  }
+  .fl-table tr td:nth-child(odd) {
+      background: #F8F8F8;
+      border-right: 1px solid #E6E4E4;
+  }
+  .fl-table tr td:nth-child(even) {
+      border-right: 1px solid #E6E4E4;
+  }
+  .fl-table tbody td {
+      display: block;
+      text-align: center;
+  }
+}
